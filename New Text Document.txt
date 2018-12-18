@@ -1,0 +1,11 @@
+        //document.getElementById("business_subtype").innerHTML ="<option>" + e.target.value + "</option>";
+        //"<?php echo "<option value=".$business_type['business_type'].">".$business_type['business_type']."</option>";?>";
+
+
+
+
+document.getElementById('business_subtype').innerHTML = "<?php  echo findSubType("+ business_type +")?>";
+
+
+
+
